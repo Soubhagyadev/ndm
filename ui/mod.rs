@@ -3,7 +3,7 @@ use egui::{Color32, FontId, Pos2, Rect, Stroke, Vec2};
 
 pub fn draw_ndm_canvas(ctx: &egui::Context) {
     egui::CentralPanel::default().show(ctx, |ui| {
-        // Allocate a fixed-size canvas area
+        // Allocating a Canvas
         let (response, painter) =
             ui.allocate_painter(Vec2::new(400.0, 200.0), egui::Sense::hover());
 
