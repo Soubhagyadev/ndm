@@ -18,16 +18,16 @@ impl eframe::App for MyApp {
                 ui.heading("Boiler Panel");
                 ui.add_space(10.0);
 
-                if ui.button("Start").clicked() {
+                else if ui.button("Start").clicked() {
                     println!("Started");
                 }
-                if ui.button("Stop").clicked() {
+                else if ui.button("Stop").clicked() {
                     println!("Stopped");
                 }
-                if ui.button("Reset").clicked() {
+                else if ui.button("Reset").clicked() {
                     println!("Reset");
                 }
-                if ui.button("Settings").clicked() {
+                else if ui.button("Settings").clicked() {
                     println!("Settings");
                 }
             });
