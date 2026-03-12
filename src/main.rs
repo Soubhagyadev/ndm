@@ -1,6 +1,5 @@
 // Importing Library
 use eframe::egui;
-use reqwest;
 
 fn main() -> eframe::Result<()> {
     let options = eframe::NativeOptions::default();
